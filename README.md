@@ -12,6 +12,7 @@ Este repositorio contiene libretas interactivas diseñadas para explorar los con
 numpy/
 ├── 1_numpy_avanzado.ipynb   # NumPy avanzado: arreglos, dimensiones y matrices aleatorias
 ├── 2_ejercicios.ipynb       # Análisis de imágenes (beagle.jpg) con Matplotlib
+├── 3_clase_matriz.ipynb     # Clase Matriz: operaciones, validaciones y casos de error
 ├── beagle.jpg               # Imagen de muestra para el análisis visual
 └── .venv/                   # Entorno virtual con las dependencias instaladas
 ```
@@ -42,6 +43,16 @@ Procesamiento digital de imágenes: cómo una fotografía se representa como una
   * Lectura de `beagle.jpg` con `plt.imread()` de Matplotlib.
   * Análisis de la estructura `(Alto, Ancho, Canales RGB)` mediante `.shape`.
   * Inspección de valores de píxeles individuales en coordenadas específicas (valores en rango $[0, 255]$).
+
+### 3. 🧱 `3_clase_matriz.ipynb` - Clase Matriz
+Implementación orientada a objetos para crear, visualizar y operar matrices sin depender de NumPy.
+
+* **Incluye:**
+  * Entrada con listas, texto o teclado.
+  * Suma, resta, producto y división elemento a elemento.
+  * Producto matricial, transposición y multiplicación por escalar.
+  * Operaciones elementales por filas y validaciones con mensajes claros.
+  * Soporte para visualizar y transponer matrices no numéricas.
 
 ---
 
